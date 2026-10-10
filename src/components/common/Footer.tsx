@@ -7,8 +7,8 @@ export const Footer: React.FC = () => {
   return (
     <footer className="bg-slate-900 text-slate-300 border-t border-slate-800 mt-20">
       {/* Sample Data Disclaimer Banner */}
-      <div className="bg-slate-950/80 border-b border-slate-800 py-4 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-slate-400">
+      <div className="bg-slate-950/80 border-b border-slate-800 py-4 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+        <div className="w-full max-w-[1920px] mx-auto flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-slate-400">
           <div className="flex items-center gap-2 text-amber-400 font-medium">
             <ShieldAlert className="w-4 h-4 shrink-0" />
             <span>Demonstration & Sample Data Notice:</span>
@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+      <div className="w-full max-w-[1920px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-12 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
           
           {/* Col 1: Brand Info */}
